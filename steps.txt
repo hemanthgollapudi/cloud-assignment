@@ -1,0 +1,20 @@
+Steps for the project deployment - 
+1.go to the console of google cloud.
+2.create a project with desired name.
+3.Enable billing on that  particular project(if not enabled).
+4.open command promt on a computer.
+5.Type "gcloud init" and press enter.
+6.It will ask to re-initialise the configration or to create a new configration.
+7.choose the option accordingly.
+8.now it will ask you to choose the account we would like to use.
+9.after it will ask to pick a cloud project or to create a new one.
+10.choose the option accordingly.
+11.Default project has now been set accordingly to the previous.
+12.Create a GIT repository with required code and yaml file.
+13.Clone the GIT repo.
+14.Go to the repo folder and configure the project by using the command "gcloud config set project <project name>".
+15.Deploy the app using the command "gcloud app deploy".
+16.Select the desired region from the given list. After some time it will ask to continue, type 'y' and press enter.
+	<this process will take some time>
+17.You will get a URL which can be used for the opening the webpage.
+18.There you have it.
